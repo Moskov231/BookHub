@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BookHub</string>
+    <string name="dashboard">DashBoard</string>
+    <string name="profile">Profile</string>
+    <string name="favorites">Favorites</string>
+    <string name="about_app">About App</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashboard_fragment">Dashboard Fragment</string>
+    <string name="favorites_fragement">Favorites Dashboard</string>
+    <string name="profile_fragment">Profile</string>
+    <string name="tony_stark">Tony Stark</string>
+    <string name="email_tony">Tony3000@stark.com</string>
+    <string name="add_to_fav">Add to Fav</string>
+    <string name="sort">Sort</string>
+</resources>

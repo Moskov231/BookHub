@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ProfileFragment">
+
+        <ImageView
+            android:id="@+id/imgTony"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/tony"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            />
+    <TextView
+        android:id="@+id/nameTony"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tony_stark"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_toRightOf="@id/imgTony"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:id="@+id/emailTony"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameTony"
+        android:text="@string/email_tony"
+        android:layout_toRightOf="@id/imgTony"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:id="@+id/phoneTony"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12345678"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_below="@id/emailTony"
+        android:layout_toRightOf="@id/imgTony"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgTony"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:elevation="0dp"
+        android:background="@color/colorPrimary"
+        android:text="Call"
+        android:textSize="20sp"
+        android:padding="6dp"
+        />
+
+
+
+
+
+
+
+
+</RelativeLayout>
